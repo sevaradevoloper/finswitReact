@@ -7,7 +7,7 @@ const Layout = () => {
   return (
     <div>
       <Header />
-      <main className='py-35'>
+      <main className='pt-20'>
         <Outlet /> {}
       </main>
       <Footer />
