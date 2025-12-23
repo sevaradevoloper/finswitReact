@@ -5,7 +5,7 @@ import Logo2 from '../pages/image/Logo2.svg'
 import Logo3 from '../pages/image/Logo3.svg'
 const Home = () => {
   return (
-    <section className="bg-[#E7F0F9] min-h-[80vh] flex items-center pt-20 overflow-hidden pb-20">
+    <section className="bg-[#E7F0F9] min-h-[80vh] flex items-center pt-20 overflow-hidden pb-20" id='/'>
       <div className="container mx-3 px-5 lg:px-20">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10">
           <div className="w-full lg:w-1/2 z-10">
