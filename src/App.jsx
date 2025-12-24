@@ -5,6 +5,7 @@ import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Careers from "./components/pages/Careers";
+import Services from "./components/pages/Services";
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
           <Route index element={<Home />} /> {}
           <Route path="about" element={<About />} />
           <Route path="careers" element={<Careers />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="services" element={<Services />} />
         </Route>
       </Routes>
     </BrowserRouter>
