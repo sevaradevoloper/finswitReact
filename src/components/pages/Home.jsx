@@ -43,7 +43,6 @@ const Home = () => {
                 className="grayscale opacity-90"
               >
                 <div className="flex items-center gap-12">
-                 
                   <img src={Logo1} alt="logo" className="h-6 mx-6" />
                   <img src={Logo2} alt="logo" className="h-6 mx-6" />
                   <img src={Logo3} alt="logo" className="h-6 mx-6" />
@@ -60,7 +59,9 @@ const Home = () => {
             <img
               src={Hero}
               alt="Professional Business Person"
-              className="relative z-10 w-100% h-120 object-cover rounded-b-[20px]"
+              className="relative z-10 w-full h-120 object-cover rounded-b-[20px] 
+             transition-all duration-500 ease-in-out cursor-pointer
+             hover:-translate-y-10 hover:opacity-100 hover:scale-95 "
             />
           </div>
         </div>

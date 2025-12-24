@@ -27,7 +27,7 @@ const About = () => {
             </div>
           </div>
           <div className="w-full lg:w-1/2 relative">
-            <div className="absolute bottom-0 left-0 w-[30%] h-[100%] bg-[#F58A07]/70 rounded-tl-[20px] rounded-bl-[20px] z-11 opacity-90"></div>
+            <div className="absolute bottom-0 left-0 w-[30%] h-[100%] bg-[#F58A07]/70 rounded-tl-[20px] rounded-bl-[20px] z-11 opacity-90    hover:translate-x-10 hover:opacity-80 hover:scale-100 "></div>
             <img
               src={AboutImg}
               alt="Professional Business Person"

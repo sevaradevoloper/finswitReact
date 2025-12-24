@@ -6,6 +6,7 @@ import About from "./components/pages/About";
 import Contact from "./components/pages/Contact";
 import Careers from "./components/pages/Careers";
 import Services from "./components/pages/Services";
+import Blog from "./components/pages/Blog";
 
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
           <Route path="about" element={<About />} />
           <Route path="careers" element={<Careers />} />
           <Route path="services" element={<Services />} />
+          <Route path="blogs" element={<Blog />} />
+          <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
     </BrowserRouter>
